@@ -8,6 +8,12 @@
 
         <h2>{{ .Site.Params.Description }}</h2>
 
+        {{ with .Content }}
+            <div class="main-content">
+                {{.}}
+            </div>
+        {{ end }}
+
     </div>
 
 </main>
