@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    direction: rtl;
 }
 
 body {
@@ -41,6 +42,15 @@ main {
 .main-content {
     margin-top: 25pt;
     text-align: right;
+}
+
+code {
+    direction: ltr;
+    text-align: left;
+}
+
+pre {
+    padding: 0 !important;
 }
 
 /*apply accent colour to links*/
