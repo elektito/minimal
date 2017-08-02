@@ -1,7 +1,7 @@
 <style>
 
     html body {
-        font-family: {{ .Site.Params.font }}, sans-serif;
+        font-family: IRANSans, sans-serif;
         background-color: {{ .Site.Params.backgroundColor | default "white" }};
     }
 
@@ -18,8 +18,8 @@
 <!-- custom -->
 {{ range .Site.Params.css }} <link rel="stylesheet" href="{{ . }}"> {{ end }}
 
-<!-- google fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ .Site.Params.font }}">
+<!-- fontiran fonts -->
+<link rel="stylesheet" href="/css/fontiran.css">
 
 <!-- highlight.js -->
 {{ if .Site.Params.highlight | default false }} <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/{{ .Site.Params.highlightStyle | default "default" }}.min.css"> {{ end }}
