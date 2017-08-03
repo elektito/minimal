@@ -39,6 +39,10 @@ main {
     font-size: 3vmin;
 }
 
+.logo {
+    max-height: 1em;
+}
+
 .main-content {
     margin-top: 25pt;
     text-align: right;
